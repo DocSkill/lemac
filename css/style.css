@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 90px;
+    background-color: #fff;
+}
+
+#logo {
+    font-family: "Parisienne", Arial;
+    font-size: 80px;
+    color: #824d17;
+    text-align: center;
+}
+
+
+/* three-bars */
+.bar-container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 45px;
+    height: 5px;
+    background-color: #824d17;
+    margin: 8px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 9px);
+    transform: rotate(-45deg) translate(-9px, 9px);
+    
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-9px, -8px);
+    transform: rotate(45deg) translate(-9px, -8px);
+}
+
+/* end of three bars styling */
+
+.dropdown {
+    position: relative;
+    bottom: 90px;
+    display: inline-block;
+}
+
+.bar-container {
+    margin-left: 30px;
+}
+
+
+.dropContent {
+    font-size: 20px;
+    overflow: auto;
+    display: none;
+    position: relative;
+    right: 0;
+    top: 25px;
+    background-color: #c1ab93;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropContent a {
+    font-family: "Lato", Arial;
+    font-weight: 300;
+    text-align: center;
+    color: #262834;
+    padding: 20px 30px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropContent a:hover {
+    background-color: #fad5b6;
+}
+
+.hero {
+    height: 600px;
+    background-color: #c2aa92;
+}
+
+
+.headTag {
+    color: #384661;
+    font-family: "Lato", Arial;
+    font-weight: 400;
+    font-size: 150px;
+    letter-spacing: 50;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.kicker {
+    font-family: "Lato", Arial;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 3;
+    text-align: center;
+    color: #384661;
+    line-height: 1;
+}
+
+.about {
+    height: 100vh;
+}
+
+.text {
+    height: 100vh;
+    background-color: #384661;
+    margin: 0 100px 0 400px;
+}
+
+.theheading {
+    font-family: "Lato", Arial;
+    font-size: 50px;
+    color: #d6805f;
+    text-transform: uppercase;
+    letter-spacing: 2;
+    font-weight: 400;
+    padding-top: 200px;
+    padding-left: 40px;
+}
+
+.smallKicker {
+    font-family: "Lato", Arial;
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 40px;
+    letter-spacing: 1;
+}
+
+.somebar {
+    height: 10px;
+    width: 60px;
+    background-color: #d6805f; 
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.somelong {
+    color: white;
+    font-family: "Lato", Arial;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-right: 30px;
+    letter-spacing: 1;
+}
+
+.readMore {
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.readMore a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Lato", Arial;
+    font-weight: lighter;
+    padding: 15px 30px;
+    background-color: #d6805f;
+    text-align: center;
+}
+
+.readMore a:hover {
+    cursor: pointer;
+    background-color: #d9a692;
+}
+

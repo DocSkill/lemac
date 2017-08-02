@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", Arial;
+    height: 100vh
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    border-bottom: solid 1px #fff;
+}
+
+.logo {
+    color: white;
+    font-family: "Allura", Arial;
+    font-size: 80px;
+    text-align: center;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger img {
+    height: 40px;
+    width: 50px;
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 300;
+    color: #414142;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin: 0 400px 0 0;
+}
+
+p.kicker {
+    font-size: 40px;
+    font-weight: 300;
+    padding: 20px 300px 40px 30px; 
+}
+
+form {
+    height: 800px;
+    border: solid 1px #DBDBD5;
+    border-radius: 15px;
+    background-color: #DBDBD5;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 80px 30px 250px;
+}
+
+label {
+    font-size: 70px;
+    font-weight: 200;
+}
+
+input[type="text"],
+input[type="email"] {
+    font-size: 40px;
+    width: 100%;
+    border: none;
+    background-color: #F2F1F1;
+    padding: 30px 10px 30px;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    font-size: 40px;
+    border: none;
+    color: #fff;
+    padding: 20px 30px;
+    background-color: #4B9AD5;
+    margin-top: 30px;
+    margin-bottom: 30px; 
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #6BAED6;
+}
+
+input[type="submit"]:active {
+    position: relative;
+    top: 1px;
+}
+
+footer {
+    background-color: #1B2329;
+    color: #fff;
+    height: 400px;
+}
+
+.social {
+    font-size: 40px;
+    padding-top: 80px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    padding-left: 20px;
+}
+
+#footer-sig {
+    font-weight: 200;
+    color: #A7A7A7;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
